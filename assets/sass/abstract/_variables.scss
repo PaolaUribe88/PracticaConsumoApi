@@ -1,22 +1,31 @@
-$fondoNavbar:red;
+//VARIABLES UL
 $ulMargin:0;
 $ulpadding:0;
 $styleUl: none;
 
-//FONDO PARA LAS CARDS
+//VARIABLES PARA LAS CARDS
 $card1:pink;
-//FONDOCOLOR BOTON
-$colorBoton: #faa05a;
 
-$fondoBody:blueviolet;
+//FONDOCOLOR BOTON
+$fondoBody:#edbe9a;
 $fondoNav:rgb(175, 107, 240);
 
-$fondoh2:red;
-$posicionH2: center;
+//VARIABLES BOTON
+$primary-color:#faa05a;
+$secondary-color: blue;
 
-$liDisplay: inline-block;
+//VARIABLE DIV
+$divBorder:border 4px;
 
 
 
-$porteParrafo:14px;
-$colorParrafos:blueviolet;
+//VARIABLE IMAGEN
+$sizeImg:200px;
+
+//VARIABLES TITULO
+$tituloColor:orangered;
+$tituloPorte:30px;
+
+//VARIABLES PARRAFO
+$sizeParrafo:20px;
+$fondoParrafo:orangered; 

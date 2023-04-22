@@ -1,3 +1,18 @@
+.bodyCuerpo{
+    background-color: $fondoBody;
+}
+#img{
+    border: 20px black;
+    margin: 30px;
+    width: $sizeImg;
+    height: $sizeImg;
+   
+}
+.contenedor_card-body{
+
+    border: 20px solid black ;
+    margin: 30px;
+}
 @media(min-width:1200px){ 
     .col-xl-12{width: 100%;} /*COLUMNA PANTALLA EXTRA LARGA*/
     .col-xl-11{width: 91.66666667%;} /*WIDTH ANCHO DE LA COLUMNA*/

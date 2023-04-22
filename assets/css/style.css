@@ -1,4 +1,20 @@
 @charset "UTF-8";
+.bodyCuerpo {
+  background-color: #edbe9a;
+}
+
+#img {
+  border: 20px black;
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor_card-body {
+  border: 20px solid black;
+  margin: 30px;
+}
+
 @media (min-width: 1200px) {
   .col-xl-12 {
     width: 100%;
@@ -189,6 +205,26 @@
   .col-xs-1 {
     width: 8.33333333%;
   }
+}
+.contenedor__btn {
+  background-color: #faa05a;
+  border-color: #faa05a;
+  color: #120101;
+}
+.contenedor__btn:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.contenedor__titulo {
+  font-size: 30px;
+  color: orangered;
+}
+
+.contenedor__parrafo {
+  background-color: orangered;
+  font-size: 20px;
+  text-decoration: dashed;
 }
 
 /*# sourceMappingURL=style.css.map */
