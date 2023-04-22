@@ -1,0 +1,55 @@
+.navigation {
+    display: flex;
+    width: 100%;
+    background: #222;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.navigation a:hover{
+    color:$secondary-color;
+}
+
+.navigation__laTiendirta{
+    background: $primary-color;
+    padding: 15px 40px;
+    color: #fff;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size-navbrand;
+    text-shadow: 2px 2px $secondary-color;
+}
+
+.navigation__item {
+    height: 60px;
+    padding: 16px 40px;
+    font-family: $font-family;
+    font-size: $font-size-navigation-item;
+}
+
+.navigation__item:hover{
+    background: #111;
+}
+
+.posicion-fija {
+    position: fixed;
+}
+
+.desplazar {
+    right: 0;
+}
+
+
+.navigation__item2 {
+    height: 60px;
+    padding: 16px 40px;
+    font-family: $font-family;
+    font-size: $font-size-navigation-item;
+}
+
+.navigation__item2 a{
+    color: #999;
+}
